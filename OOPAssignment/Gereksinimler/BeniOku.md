@@ -42,10 +42,10 @@
 
 ```
 
-    Input Template:                            |    Örnek Input:		|    Örnek Input:
-        {surfaceWidth} {surfaceHeight}         |        5 5				|        5 5
-        {carX} {carY} {carDirection}           |        0 1 N			|        2 2 E
-        {carCommand}                           |        MRMLLLLMM		|    LMMRMLMRRM
+    Input Template:                            |    Örnek Input:        |    Örnek Input:
+        {surfaceWidth} {surfaceHeight}         |        5 5             |        5 5
+        {carX} {carY} {carDirection}           |        0 1 N           |        2 2 E
+        {carCommand}                           |        MRMLLLLMM       |    LMMRMLMRRM
                                                |                        |
     Output Template                            |    Beklenen Output     |    Beklenen Output
         {carXNew} {carYNew} {carDirectionNew}  |        3 2 E           |        3 4 S
