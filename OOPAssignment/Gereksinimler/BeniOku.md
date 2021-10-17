@@ -9,19 +9,19 @@
 ```
         Width = 5, Height = 5 olan bir surface için:
 				
-				|-----|-----|-----|-----|-----|-----|	
-				|	  |	    |	  |	    |	  |	 C  |	Width = 5, Height = 5
-				|-----|-----|-----|-----|-----|-----|	
-				|	  |	    |	  |	    |	  |	    |	A Noktası:  X = 0, Y = 0
-				|-----|-----|-----|-----|-----|-----|	B Noktası:  X = 3, Y = 2
-				|	  |	    |	  |	    |	  |	    |	C Noktası:  X = 5, Y = 5
-				|-----|-----|-----|-----|-----|-----|
-				|	  |	    |	  |	 B  |	  |	    |
-				|-----|-----|-----|-----|-----|-----|
-				|  	  |	    |	  |	    |	  |	    |
-				|-----|-----|-----|-----|-----|-----|
-				|  A  |	    |	  |	    |	  |	    |
-				|-----|-----|-----|-----|-----|-----|
+	|-----|-----|-----|-----|-----|-----|	
+	|     |     |     |     |     |  C  |	Width = 5, Height = 5
+	|-----|-----|-----|-----|-----|-----|	
+	|     |     |     |     |     |     |	A Noktası:  X = 0, Y = 0
+	|-----|-----|-----|-----|-----|-----|	B Noktası:  X = 3, Y = 2
+	|     |     |     |     |     |     |	C Noktası:  X = 5, Y = 5
+	|-----|-----|-----|-----|-----|-----|
+	|     |     |     |  B  |     |     |
+	|-----|-----|-----|-----|-----|-----|
+	|     |     |     |     |     |     |
+	|-----|-----|-----|-----|-----|-----|
+	|  A  |	    |     |     |     |     |
+	|-----|-----|-----|-----|-----|-----|
 
 ```
     
@@ -42,12 +42,12 @@
 
 ```
 
-				Input Template:								|	Örnek Input:		|	Örnek Input:
-					{surfaceWidth} {surfaceHeight}			|		5 5				|		5 5
-					{carX} {carY} {carDirection}			|		0 1 N			|		2 2 E
-					{carCommand}							|		MRMLLLLMM		|		LMMRMLMRRM
-															|						|	
-				Output Template								|	Beklenen Output		|	Beklenen Output
-					{carXNew} {carYNew} {carDirectionNew}	|		3 2 E			|		3 4 S
+	Input Template:								|	Örnek Input:		|	Örnek Input:
+		{surfaceWidth} {surfaceHeight}			|		5 5				|		5 5
+		{carX} {carY} {carDirection}			|		0 1 N			|		2 2 E
+		{carCommand}							|		MRMLLLLMM		|		LMMRMLMRRM
+												|						|	
+	Output Template								|	Beklenen Output		|	Beklenen Output
+		{carXNew} {carYNew} {carDirectionNew}	|		3 2 E			|		3 4 S
 
 ```
