@@ -1,4 +1,8 @@
-﻿using System;
+﻿using OOPAssignment.Classes;
+using OOPAssignment.Enums;
+using OOPAssignment.Interfaces;
+using OOPAssignment.Structs;
+using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -16,7 +20,7 @@ namespace OOPAssignment
 
                 Surface surface = CreateSurface();
 
-                Car[] cars = new Car[2];
+                Car[] cars = new Car[1];
                 string[] carCommands = new string[cars.Length];
                 IStringCommand[] carCommandExecutors = new CarStringCommandExecutor[cars.Length];
 

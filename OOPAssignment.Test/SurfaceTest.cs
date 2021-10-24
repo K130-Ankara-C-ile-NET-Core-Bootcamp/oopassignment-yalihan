@@ -1,4 +1,6 @@
 ﻿using System;
+using OOPAssignment.Structs;
+using OOPAssignment.Classes;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
